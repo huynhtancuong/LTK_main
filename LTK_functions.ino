@@ -3,5 +3,5 @@ void LTK_setup() {
 }
 
 void LTK_loop() {
-  Serial.println("Entering loop section...");
+  Serial.println("");
 }
