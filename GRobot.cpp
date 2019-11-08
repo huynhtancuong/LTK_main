@@ -667,20 +667,20 @@ void IR_EEPROOM_Write()
 	//Serial.println(distance);
     //distance 0 is reserved for timeout
     
-	if (distance<25 && distance>0) {
-      GRobot_Back(120);
-	  delay(800);
-	  switch(random(1))
-	  {
-		  case 0: 	GRobot_RotateLeft(170);
-					delay(300);
-					break;
-		  case 1: 	GRobot_RotateRight(170);
-					delay(300);
-					break;
-	  }
-    } 
-	GRobot_Forward(120);
+//	if (distance<25 && distance>0) {
+//      GRobot_Back(120);
+//	  delay(800);
+//	  switch(random(1))
+//	  {
+//		  case 0: 	GRobot_RotateLeft(170);
+//					delay(300);
+//					break;
+//		  case 1: 	GRobot_RotateRight(170);
+//					delay(300);
+//					break;
+//	  }
+//    } 
+//	GRobot_Forward(120);
   }
 
 
